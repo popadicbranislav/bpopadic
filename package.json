@@ -1,9 +1,11 @@
 {
   "name": "bpopadic",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
+    "dev": "pnpm --filter @bpopadic/web dev",
+    "generate": "pnpm --filter @bpopadic/web generate",
+    "preview": "pnpm --filter @bpopadic/web preview",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

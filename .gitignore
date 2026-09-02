@@ -1,7 +1,7 @@
 node_modules/
 .output/
 .nuxt/
-dist/
+dist
 *.log
 
 # Private wayfinder tickets and infrastructure notes — never commit
