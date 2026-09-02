@@ -1,0 +1,11 @@
+node_modules/
+.output/
+.nuxt/
+dist/
+*.log
+
+# Private wayfinder tickets and infrastructure notes — never commit
+.scratch/
+.env
+.env.*
+!.env.example
